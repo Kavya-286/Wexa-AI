@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://wexa-ai-9s5v.onrender.com/api';
 
 async function request(path) {
   const response = await fetch(`${API_BASE}${path}`);
