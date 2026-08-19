@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5001',
+        target: 'https://wexa-ai-9s5v.onrender.com',
         changeOrigin: true
       }
     }
